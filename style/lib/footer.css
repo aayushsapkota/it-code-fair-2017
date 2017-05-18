@@ -1,0 +1,25 @@
+#Contact{
+   background-color: #343434;
+    padding-top: 60px;
+    margin-bottom: 0px;
+    color: white;
+}
+
+#Contact h3{
+    margin: 0px;
+}
+
+.Contact__links{
+  width: 60%;
+    margin: 0 auto;
+    
+}
+.Developer__info{
+    text-align: center;
+    font-family: fantasy;
+}
+
+.Developer__info p{
+    margin: 0px;
+    line-height: 40px;
+}

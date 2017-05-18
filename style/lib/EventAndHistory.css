@@ -1,0 +1,118 @@
+#Events{
+    background-color: #FF033E;
+    padding-left:10%;
+    padding-right: 10%;
+    padding-bottom: 50px;
+}
+
+#Events h2 {
+  margin: 0px;
+    padding-top: 50px;
+    padding-bottom: 40px;
+    text-align: center;
+    width: 100%;
+  
+}
+
+.SignupButtons {
+  text-decoration: none;
+}
+.Event_Table {
+  border: solid;
+  border-collapse: collapse;
+}
+.Event_Table th,
+.Event_Table td {
+  border: solid;
+  padding: 2px 5px;
+}
+.Events_schedule {
+    margin: 20px auto;
+    background-color: white;
+    width: 500px;
+    font-size: 15px;
+    border-radius: 3px;
+    padding-left:50px;
+    padding-top: 10px;
+    padding-bottom: 40px;
+    padding-right: 10px;
+    display: block;
+    box-shadow: 0px 0px 10px #000;
+}
+.Events__slideshow {
+  margin: 60px auto;
+  max-width: 802px;
+  overflow: hidden;
+}
+.Events__slideshow img {
+  padding: 1px;
+}
+.slideshow_options {
+  text-align: center;
+  padding: 5px;
+}
+.Events_schedule {
+  width: 95%;
+  height: auto;
+}
+
+#History{
+    background-color: #3B669B;
+    color: white;
+    padding-bottom: 60px;
+}
+.About_codefair {
+  clear: both;
+  width: 60%;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding-top: 50px;
+    line-height: 30px;
+    
+}
+.reportcards {
+    margin-top: 50px;
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+.reportcard_li {
+  border-radius: 2px;
+  list-style-type: none;
+  margin-bottom: 2em;
+    width: 322px;
+  font-size: 0.8em;
+    background-color: #FF033E;
+    height: 210px;
+    margin-right: 50px;
+}
+
+.reportcards__content h2 {
+  padding-left: 30px;  
+}
+
+.reportcards__content button{
+    margin-left: 30px;
+}
+
+.fullscreen {
+  z-index: 9999;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: block;
+  background-color: white;
+  overflow: scroll;
+    color: #343434;
+}
+.hiddenContent {
+  padding: 2%;
+}
+
+@media screen and (min-width: 600px) {
+  .Events_schedule {
+    width: 500px;
+    height: auto;
+  }
+}

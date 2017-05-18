@@ -1,0 +1,33 @@
+.Home_Infocard {
+  list-style-type: none;
+  text-align: center;
+  display: inline-flex;
+  flex-wrap: wrap;
+    padding-left: 15%;
+}
+.Infocard {
+  display: block;
+  border-style: solid;
+  border-width: thin;
+  width: 320px;
+  height: 400px;
+  margin-right: 40px;
+  margin-bottom: 20px;
+  position: relative;
+    background-color: #fff;
+    border-radius: 5px;
+}
+.model {
+  display: none;
+}
+.Infocard figure{
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Infocard ul{
+    display: block;
+    text-align: left;
+}

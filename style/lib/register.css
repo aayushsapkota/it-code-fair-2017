@@ -1,0 +1,36 @@
+#Register{
+    background-color: #FF033E;
+    color: white;
+    padding-bottom: 50px;
+}
+
+.Register_content{
+     margin: 0 auto;
+    width: 60%;
+   
+}
+.Register_content p{
+    line-height: 100px;
+    margin: 0px;
+}
+
+form button{
+    margin-top: 20px;
+}
+
+.forms_Inputs{
+    margin-bottom: 25px;
+   
+}
+
+.forms_Inputs input{
+    border-style: none;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    display: inline-block;
+  
+    
+}
+.text_input{
+      width: 200px;
+}
