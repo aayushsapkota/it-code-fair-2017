@@ -5,7 +5,7 @@
     padding-bottom: 50px;
 }
 
-#Events h2 {
+#Events h2{
   margin: 0px;
     padding-top: 50px;
     padding-bottom: 40px;
@@ -61,12 +61,19 @@
     color: white;
     padding-bottom: 60px;
 }
+#History h2{
+    margin: 0px;
+    padding-top: 60px;
+    padding-bottom: 0px;
+    text-align: center;
+    width: 100%;
+}
 .About_codefair {
   clear: both;
   width: 60%;
   margin: 0 auto;
   margin-bottom: 10px;
-  padding-top: 50px;
+  padding-top: 30px;
     line-height: 30px;
     
 }
@@ -84,9 +91,10 @@
     background-color: #FF033E;
     height: 210px;
     margin-right: 50px;
+    
 }
 
-.reportcards__content h2 {
+.reportcards__content h3 {
   padding-left: 30px;  
 }
 

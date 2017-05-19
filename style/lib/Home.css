@@ -3,9 +3,14 @@
      background-color: #3B669B; 
     padding-bottom: 50px;
 }
+h2{
+    margin:0px;
+     padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: center;
+    color: white;
+}
 .Home_overview{
-    padding-top: 40px;
-    padding-bottom: 5px;
   background-color: #3B669B; 
     color: white;
     line-height: 25px;

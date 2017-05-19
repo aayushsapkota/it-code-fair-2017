@@ -9,15 +9,26 @@
 }
 
 .topnav, .Header_Title{
-    width: calc(100% - 155px)
+    width: calc(100% - 155px);
+    text-align: center;
 }
+.myTopnav_fixed{
+     top: 0;
+    z-index: 50;
+  position: fixed;
+    width: 100%;
+    background-color: #FF033E;
+    border-bottom-style: solid;
+    border-bottom-color: #282828;
+    border-width: 5px;
+}
+
 .topnav a {
   display: inline-block;
   color: white;
-  text-align: center;
-  padding: 14px 16px;
+  padding: 20px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 18px;
     display: none;
     width: 100px;
     border-radius: 2px 2px 0px 0px;
