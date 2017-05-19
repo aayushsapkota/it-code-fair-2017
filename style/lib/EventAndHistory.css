@@ -1,5 +1,6 @@
 #Events{
     background-color: #FF033E;
+    padding-top: 40px;
     padding-left:10%;
     padding-right: 10%;
     padding-bottom: 50px;
@@ -59,6 +60,7 @@
 #History{
     background-color: #3B669B;
     color: white;
+    padding-top: 40px;
     padding-bottom: 60px;
 }
 #History h2{

@@ -1,7 +1,8 @@
 #Register{
     background-color: #FF033E;
     color: white;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
+    padding-top: 40px;
 }
 #Register h2{
     margin: 0px;

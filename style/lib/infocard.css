@@ -3,13 +3,11 @@
   text-align: center;
   display: inline-flex;
   flex-wrap: wrap;
-    padding-left: 15%;
+    margin-left: 100px;
 }
 .Infocard {
   display: block;
-  border-style: solid;
-  border-width: thin;
-  width: 320px;
+  width: 400px;
   height: 400px;
   margin-right: 40px;
   margin-bottom: 20px;
@@ -20,14 +18,28 @@
 .model {
   display: none;
 }
-.Infocard figure{
-    width: 100%;
-    height: auto;
-    margin: 0px;
-    padding: 0px;
-}
 
 .Infocard ul{
     display: block;
     text-align: left;
+}
+
+.Infocard:nth-child(2){
+ min-width: 400px;   
+    background-color: black;
+}
+
+.video{
+    width: 100%;
+    height: 100%;
+}
+
+.Infocard img{
+    z-index: 999;
+    top: 140px;
+    left: 140px;
+   width: 120px;
+    height: 120px;
+    position: absolute;
+    
 }

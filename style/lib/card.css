@@ -13,6 +13,7 @@
     width: calc(50% - 50px);
     min-width: 350px;
     overflow: hidden;
+    padding-bottom: 20px;
 }
 
 .cards__content{
