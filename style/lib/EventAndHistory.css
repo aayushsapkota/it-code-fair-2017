@@ -1,5 +1,5 @@
 #Events{
-    background-color: #FF033E;
+    background-color: #444;
     padding-top: 40px;
     padding-left:10%;
     padding-right: 10%;
@@ -58,7 +58,7 @@
 }
 
 #History{
-    background-color: #3B669B;
+    background-color: #3B5998;
     color: white;
     padding-top: 40px;
     padding-bottom: 60px;
@@ -80,7 +80,7 @@
     
 }
 .reportcards {
-    margin-top: 50px;
+    margin-top: 20px;
   display: inline-flex;
   flex-wrap: wrap;
 }

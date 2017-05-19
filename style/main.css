@@ -11,4 +11,9 @@ body {
     color: #333;
     font-size: 19px;
 }
-
+header{
+     background-color: #444;   
+    border-bottom-style: solid;
+    border-width: 5px;
+    border-bottom-color: white;
+}

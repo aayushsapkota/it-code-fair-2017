@@ -78,15 +78,6 @@ img{
    
 }
 
-header{
-    background-color: #FF033E;
-    border-bottom-style: solid;
-    border-bottom-color: white;
-    border-width: 5px;
-}
-
-
-
 @media screen and (min-width: 600px) {
   .icon {
     display: none;
