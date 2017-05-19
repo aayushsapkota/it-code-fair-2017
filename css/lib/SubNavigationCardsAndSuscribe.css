@@ -1,0 +1,156 @@
+.sub_navigationcards{
+    background-color: #91C848;
+    text-align: center;
+    overflow: hidden;
+}
+.NavigationHeading{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 13%;
+    font-family: 'Oswald';
+    font-weight: 300;
+    color: white;
+    font-style: normal;
+}
+.cards{
+    display: inline-flex;
+    flex-wrap: wrap;
+    width: 570px;
+    background-color: white;
+    margin-left: 40px;
+    margin-top: 40px; 
+    text-align: left;
+    
+}
+
+.card_maincontent{
+    padding: 40px;
+}
+
+.card_maincontent h3{
+    font-style: italic;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 0px;
+}
+
+.card_maincontent p{
+    font-size: 20px;
+}
+
+.Cardswrapper{
+    margin-bottom: 90px;
+}
+
+.load_button{
+    border: none;
+    background-color: #343434;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 2px;
+    font-family: 'Vollkron';
+    box-shadow: 0px 0px 5px #666;
+    font-size: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.main_suscribe{
+    background-color: #343434;
+    color: white;
+    padding-left: 13%;
+    padding-right: 13%;
+    overflow: hidden;
+}
+.Suscribe_content{
+    float: left;
+    width: 300px;
+    font-size: 19px;
+}
+.Suscribe_content h3{
+    margin-top: 0px;
+    padding-top: 40px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 28px;
+}
+.main_suscribe form{
+    margin-top: 50px;
+    float: right;
+    width: calc(100% - 350px);
+    background-color: white;
+    border-radius: 2px;
+    color: #343434;
+    padding-top: 55px;
+    padding-left: 40px;
+    height: 180px;
+    margin-bottom: 60px;
+    
+    
+}
+Suscribe_content,
+.main_suscribe form{
+    box-sizing: border-box;
+} 
+
+.main_suscribe form label{
+    display: block;
+    font-family: 'Oswald';
+    font-weight: 200;
+    
+} 
+.main_suscribe form input{
+    border-style: none;
+    width: 400px;
+    min-width: 200px;
+    border-bottom-style: solid;
+    border-bottom-color: #FF6914;
+}
+.form_button{
+    border: none;
+    background-color: #FF6914;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 2px;
+    font-family: 'Vollkron';
+    box-shadow: 0px 0px 5px #666;
+    font-size: 17px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

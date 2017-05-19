@@ -1,0 +1,132 @@
+
+.advice_aligncenter{
+    background-color: #F0F0E6;
+    text-align: center;
+     height: 650px;
+}
+
+.advice_aligncenter h2{
+    margin: 0px;
+    padding-top: 40px;
+    font-style: italic;
+    font-size: 37px;
+   
+}
+
+
+.advice_aligncenter p{
+    padding-left: 35%;
+    padding-right: 35%;
+}
+.advice_aligncenter p{
+    font-size: 18px;
+    line-height: 35px;
+    margin-bottom: 40px;
+}
+.advice_aligncenter button{
+    height: 60px;
+    display: inline-block;
+    margin-right: 10px;
+    width: 230px;
+    
+}
+.footer_Contacts{
+    padding-left: 30px;
+}
+.footer_Contacts p{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.InPageButton{
+    height: 60px;
+    display: block;
+}
+
+.fat_footer{
+    margin-left: 9%;
+    z-index: 1000;
+    left: 0;
+    top: 4750px;
+    position: absolute;
+    background-color: white;
+    width: 77.5%;
+    border-radius: 4px;
+    left: 15px;
+    color: black;
+    height: 350px;
+    box-shadow: -5px 5px 8px #ccc;
+   
+}
+.footer_Contacts, .footer_About{
+    padding-top:20px;
+   float: left; 
+    box-sizing: border-box;
+    
+    margin-left: 20px;
+    
+}
+.footer_Contacts{
+    width: 33%;
+}
+.footer_About{
+    padding-right: 40px;
+    width: 33%;
+    
+}
+.footer_About p{
+    margin-top: 0px;
+    line-height: 30px;
+}
+.footer_quicklinks{
+    float: left; 
+    box-sizing: border-box;
+    width: calc(34% - 40px);
+    height: 350px;
+    background-color: #403E2F;
+    padding-left: 40px;
+    color: white;
+    padding-top: 10px;
+      border-radius: 2px;
+}
+.footer_quicklinks h3{
+    font-weight: 300;
+}
+.footer_quicklinks a{
+    display: block;
+    color: #FF6914;
+    text-decoration: none;
+    line-height: 45px;
+    font-family: 'Oswald';
+    font-size: 17px;
+    font-weight: 200;
+  
+}
+
+.advice_aligncenter, 
+.developers_info{
+    position: relative;
+}
+
+.developers_info{
+    padding-top: 70px;
+    background-color: #DCDCD0;
+    bottom: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    overflow: hidden;
+   
+}
+.developers_info p{
+    margin: 0px;
+    font-family: 'Vollkron';
+     padding-bottom: 30px;
+}
+
+.developers_info p span{
+    margin-left: calc(80% - 400px);
+    min-width: 400px;
+}
+
+

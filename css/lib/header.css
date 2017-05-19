@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300|Vollkorn:400i');
+
+.Header_topNav{
+    padding-top: 15px;
+    background-color: #FF6914;
+    height: 130px;
+    font-size: 16px;
+    
+}
+.Header_topNav,
+.Header_pageHeadings{
+    padding-left: 10%;
+    padding-right: 10%;
+    position: relative;
+  
+}
+
+.Nav_wrapperlist,
+.breakoutNavList{
+   text-align: right;
+    margin: 0px;
+    overflow: hidden;
+    
+}
+
+.Nav_wrapperlist li,
+.breakoutNavList li{
+    list-style-type: none;
+    display: inline-flex;
+  
+   
+}
+
+.Nav_wrapperlist li a,
+.breakoutNavList li a{
+    text-decoration: none;
+    margin-right: 30px;
+     font-family: 'Oswald', sans-serif;
+     display: block;
+    font-weight: lighter;
+}
+.Nav_wrapperlist li a{
+    color: white;
+    
+}
+
+.Nav_wrapperlist li:nth-child(5){
+    margin-left: 20px;
+    padding-right: 10px;
+}
+.Nav_wrapperlist li:nth-child(5) img{
+  fill: white;
+}
+
+.icon{
+     display: inline-block;
+  width: 17px;
+  height: 17px;
+  stroke-width: 0;
+  stroke: currentColor;
+    padding-right: 10px;
+}
+.breakoutNavList li a{
+    color: black;
+    font-size: 20px;
+}
+
+.Header_FloatingNav img, .breakoutNavList {
+     position: relative;
+    top: 50%;
+     transform: translateY(-50%);
+}
+.Header_FloatingNav img{
+    float: left;
+   padding-left: 40px;
+}
+.breakoutNavList{
+    float:right;
+    padding-right: 20px;
+}
+.Header_topNav,
+.Header_pageHeadings {
+    box-sizing: border-box;
+}
+.Header_FloatingNav{
+   margin-left: 9%;
+    z-index: 10;
+    left: 0;
+    top: 50px;
+    position: absolute;
+    background-color: white;
+    width: 77.5%;
+    height: 160px;
+    border-radius: 2px;
+    left: 15px;
+}
+
+.Header_pageHeadings{
+    padding-top: 100px;
+    background-color: #343434;
+      overflow: hidden;
+}
+.Header_pageHeadings h2{
+    color: chocolate;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 100;
+    margin-bottom: 0px;
+}
+.Header_pageHeadings h1{
+    color: white;
+    font-weight: 300;
+    margin-top:  0px;
+    width: calc(97% - 250px);
+    float: left;
+    font-style: italic;
+}
+h1{
+   font-family: 'Vollkorn';
+    font-size: 57px;   
+}
+
+.HeadingButton button{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
+}
+
+
+.InPageButton{
+   border: none;
+    background-color: #91C848;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 2px;
+    font-family: 'Vollkron';
+    box-shadow: 0px 0px 5px #666;
+     width: 250px;
+    font-size: 18px;
+}
+Button:active{
+    background-color:green;
+}
+
