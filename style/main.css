@@ -1,13 +1,14 @@
 @import "lib/headingAndNav.css";
 @import "lib/card.css";
 @import "lib/Home.css";
+@import "lib/About.css";
 @import "lib/infocard.css";
 @import "lib/EventandHistory.css";
 @import "lib/register.css";
 @import "lib/footer.css";
 body {
   font-family: sans-serif;
-  margin:0px;
+  margin: 0px;
     color: #333;
     font-size: 18px;
 }
