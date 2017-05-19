@@ -10,7 +10,7 @@
 
 .Register_content{
      margin: 0 auto;
-    width: 60%;
+    width: 80%;
    
 }
 .Register_content p{
@@ -20,6 +20,7 @@
 
 form button{
     margin-top: 20px;
+    background-color: #343434;
 }
 
 .forms_Inputs{
@@ -37,4 +38,10 @@ form button{
 }
 .text_input{
       width: 200px;
+}
+
+@media screen and (min-width:1000px) {
+    .Register_content{
+        width: 60%;
+    }
 }

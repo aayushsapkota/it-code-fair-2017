@@ -11,11 +11,17 @@
     margin-right: 50px;
     margin-bottom: 50px;
     width: calc(50% - 50px);
-    min-width: 350px;
+    min-width: 300px;
     overflow: hidden;
     padding-bottom: 20px;
 }
 
 .cards__content{
-    padding-left: 40px;
+    padding-left: 15px;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+@media screen and (min-width:400px) {
+    
 }

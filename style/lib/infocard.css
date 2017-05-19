@@ -3,17 +3,22 @@
   text-align: center;
   display: inline-flex;
   flex-wrap: wrap;
-    margin-left: 100px;
+    margin-left: 20px;
 }
 .Infocard {
   display: block;
-  width: 400px;
-  height: 400px;
   margin-right: 40px;
   margin-bottom: 20px;
+    width: 300px;
+    min-height: 300px;
   position: relative;
     background-color: #fff;
     border-radius: 5px;
+    overflow: hidden;
+    font-size: 16px;
+}
+.Infocard:nth-child(2){
+     background-color: #000;
 }
 .model {
   display: none;
@@ -24,10 +29,6 @@
     text-align: left;
 }
 
-.Infocard:nth-child(2){
- min-width: 400px;   
-    background-color: black;
-}
 
 .video{
     width: 100%;
@@ -36,10 +37,31 @@
 
 .Infocard img{
     z-index: 999;
-    top: 140px;
-    left: 140px;
-   width: 120px;
-    height: 120px;
+    top: 40%;
+    left: 40%;
+   width: 20%;
+    height: 20%;
     position: absolute;
     
+}
+
+@media screen and (min-width:400px) {
+    
+    .Infocard{
+        width: 350px;
+        height: 350px;
+        
+    }   
+
+}
+
+@media screen and (min-width:780px){
+    
+    aside{
+        margin: 0 auto;
+    }
+    .Home_Infocard{
+       padding-left: 10%;
+        padding-right: 10%;
+    }
 }
