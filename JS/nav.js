@@ -1,12 +1,7 @@
-$(document).ready(function() {
 
 
-$(".menubutton").click(function() {
-  /* Act on the event */
-  $(".topnav").toggleClass('responsive');
-});
-
-
+$('#topnavmobile select').change(function(){
+    window.location = $(this).val();
 });
 
 $(document).ready(function() {
@@ -16,10 +11,10 @@ $(document).ready(function() {
       //trying to know exact nav location when we should switch using console
      // console.log($(window).scrollTop());
     if ($(window).scrollTop() > 150) {
-      $('.menubutton').addClass('menubutton_fixed');
+      $('.topnavmobile').addClass('topnavmobile_fixed');
     }
     if ($(window).scrollTop() < 150) {
-      $('.menubutton').removeClass('menubutton_fixed');
+      $('.topnavmobile').removeClass('topnavmobile_fixed');
     }
       
       
