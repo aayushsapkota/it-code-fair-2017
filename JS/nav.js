@@ -1,6 +1,6 @@
 
 
-$('#topnavmobile select').change(function(){
+$('.topnavmobile select').change(function(){
     window.location = $(this).val();
 });
 
