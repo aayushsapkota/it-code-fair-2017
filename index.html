@@ -12,14 +12,14 @@
                 <img class="Head_image" src="image/itcodefair_logo.png" alt="code-Fair Logo">
             
         <h1 class="Header_Title">Code-Fair 2017</h1>
-    <button class="icon">&#9776; Menu</button>
+    <button class="menubutton">&#9776; Menu</button>
   <nav class="topnav" id="myTopnav">
 
-  <a href="#Home">Home</a>
-  <a href="#Events">Events</a>
-    <a href="#History">History</a>
-    <a href="#Register">Register</a>
-  <a href="#Contact">Contact</a>
+  <a class="active" id="Homelink" href="#Home">Home</a>
+  <a  id="Eventslink" href="#Events">Events</a>
+    <a  id="Historylink" href="#History">History</a>
+    <a id="Registerlink" href="#Register">Register</a>
+  <a id="Contacklink" href="#Contact">Contact</a>
 
 </nav>
        </header>
@@ -40,15 +40,22 @@
                <aside class="Home_Infocard">
 
                 <div class="Home_Register Infocard">
-                    <h3>Get Involved/Register</h3>
+                    <h3>Get Involved</h3>
+                    <p>looking to help it-students during this code fair, click contact us and find out how you can help.</p>
+                      <button class="InfocardButton1">Contact us</button>
+                    <h3>Register Now for Code-Fair</h3>
+                    <p>Click Sign up to go to register.</p>
+                     
+                    <button class="sign_up" name="RegisterButton" >Sing up</button>
+                   
                 </div>
 
                 <div class="Home_video Infocard ">
                    
-                   <img src="image/play3.svg">
-                         <iframe class="video" src="videos/Undergradaute_student_from_Chennai_CDU_Information_Technology_Students%5B5download.com%5D.mp4" type="video/mp4">
-                             
-                        </iframe> 
+                   
+                         <video class='video'controls>
+                             <source src="videos/Undergradaute_student_from_Chennai_CDU_Information_Technology_Students%5B5download.com%5D.mp4" type="video/mp4">
+                        </video>
                         
                 </div>
 
@@ -65,7 +72,7 @@
                     <li>Hour of Code</li>
                     <li>Academic Excellence Awards</li>
                   </ul>
-                    <button class="InfocardButton">Learn more</button>
+                    <button class="InfocardButton2">Learn more</button>
                 </div>
                    </aside>
         </section>
@@ -242,6 +249,7 @@
                          <h3>Code-Fair 2014</h3>
                           <button class="ReportPreview">Read the full report</button>
                       <div class="ReportContent model">
+                          <button class="ReportClosePreview">Close full report</button>
                         <section class="hiddenContent">
                       <header class="window_header">
                       <h2>Code-Fair 2014 Report</h2>
@@ -289,7 +297,7 @@
                                       </ul>
                                       </article>
                         </section>
-                          <button class="ReportClosePreview">Close full report</button>
+                          
                         </section>
                         </div>
                       </div>
@@ -300,11 +308,14 @@
                          <h3>Code-Fair 2016</h3>
                           <button class="ReportPreview">Read the full report</button>
                       <div class="ReportContent model">
+                          <button class="ReportClosePreview">Close full report</button>
                         <section class="hiddenContent">
+                            
                       <header class="window_header">
                       <h2>Code-Fair 2016 Report</h2> 
                      </header>
                         <section class="window_section">
+                            
                         <p>Introduction
                           The third Business and IT Code Fair was held at Charles Darwin University’s North Australian Centre for Oil and Gas, November 11 from 9am – 3pm and was attended by a record number of students, industry partners and members of the IT and University communities.</p>
                           <p>
@@ -387,7 +398,7 @@
 
                                       </article>
                         </section>
-                          <button class="ReportClosePreview">Close full report</button>
+                        
                         </section>
                         </div>
                       </div>
@@ -400,38 +411,46 @@
             <h2>Sing up</h2>
             <article class="Register_content">
                 <h3>Please choose what do you want to singup/Register for:</h3>
-                <form action="index.html" method="post">
+                   <form method="post" id="formVal">
                   <fieldset>
                     <legend>Your basic info</legend>
                       <div class="forms_Inputs">
                     <label for="name">Name:</label>
-                    <input class="text_input" type="text" id="name" name="user_name"></div>
-                     <div class="forms_Inputs"><label for="mail">Email:</label>
-                    <input class="text_input" type="email" id="mail" name="user_email"></div>
+                    <input class="text_input" type="text" id="name" name="user_name" placeholder="Enter your Name">
+                      <label id="valid_User" class="input"></label>
+                     </div>
+                     <div class="forms_Inputs">
+                       <label for="mail">Email:</label>
+                    <input class="text_input" type="email" id="mail" name="user_email" placeholder="Enter your Email">
+                      <label id="valid_email" class="input"></label>
+                  </div>
                      <div class="forms_Inputs"><label>Student Number:(Optional)</label>
-                    <input class="text_input" type="text" id="studentnumber" name="student_number"></div>
+                    <input class="text_input" type="text" id="studentnumber" name="student_number" placeholder="Enter your Student Number">
+                      <label id="valid_number" class="input"></label>
+                  </div>
                      <div class="forms_Inputs"><label>Events Participating in:</label>
                          <br>
                     <input type="checkbox" id="eventcheck1"  name="user_interest"><label class="light" for="eventcheck1">Business Innovation Challenge</label><br>
                       <input type="checkbox" id="eventcheck2" name="user_interest"><label class="light" for="eventcheck2">Coding Competion</label><br>
                       <input type="checkbox" id="eventcheck3"  name="user_interest"><label class="light" for="eventcheck3">Poster Competition</label><br>
-                      <input type="checkbox" id="eventcheck4"  name="user_interest"><label class="light" for="eventcheck5">Hour Of Code Work Shop</label><br>
+                      <input type="checkbox" id="eventcheck4"  name="user_interest"><label class="light" for="eventcheck4">Hour Of Code Work Shop</label><br>
                       <input type="checkbox" id="eventcheck5"  name="user_interest"><label class="light" for="eventcheck5">Employer Speed Dating</label><br>
                       <input type="checkbox" id="eventcheck6"  name="user_interest"><label class="light" for="eventcheck6">Acedemic Excellence Awards</label><br></div>
                   </fieldset>
-                  <button type="submit">Sign Up</button>
+                  <button id="submitted">Sign Up</button>
+                  <label id="subm"></label>
                 </form>
             </article>
         </section>
     
             </main>
          <footer id="Contact">
-             <div class="Contact__links">
-              <h3>Contact us</h3>
+             <div class="Quick_links">
+              <h4>Quick links</h4>
                  <ul>
                  <li><a href="index.html#Home">Home</a></li>
               <li><a href="index.html#Events">Events</a></li>
-            <li><a href="index.html#Resources">Resources</a></li>
+            <li><a href="index.html#History">History</a></li>
               <li><a href="index.html#Register">Register</a></li>
               <li><a href="index.html#Contact">Contact</a></li>
                      </ul>
@@ -446,7 +465,7 @@
           <script type="text/javascript" src="JS/nav.js"></script>
             <script type="text/javascript" src="JS/reports.js"></script>
         <script type="text/javascript" src="JS/slideShow.js"></script>
-
+        <script type="text/javascript" src="JS/main.js"></script>
 
 
     </body>

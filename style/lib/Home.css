@@ -38,6 +38,9 @@ button{
     font-size: 17px;
 }
 
+button:active{
+    background-color: #777;
+}
 
 .Home_timer{
     text-align: center;

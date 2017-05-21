@@ -100,13 +100,32 @@
    
     
 }
+.window_section{
+font-size: 17px;
+    color: white;
+}
 
+.window_header h2{
+    background-color: #3B669B;
+    border-bottom-color: ;
+}
+.window_section,
 .reportcards__content h3 {
   padding-left: 30px;  
 }
 
 .reportcards__content button{
     margin-left: 30px;
+    background-color: #343434;
+}
+.reportcards__content button:active{
+    background-color: #555;
+}
+.ReportContent button{
+       background-color: #FF033E;
+    margin-top: 20px;
+    position: fixed;
+
 }
 
 .fullscreen {
@@ -117,12 +136,13 @@
   top: 0;
   left: 0;
   display: block;
-  background-color: white;
+  background-color: #3B669B;
   overflow: scroll;
-    color: #343434;
+   
 }
 .hiddenContent {
   padding: 2%;
+
 }
 
 @media screen and (min-width: 600px) {
@@ -152,4 +172,21 @@
       font-size: 20px;
 
   }
+    .hiddenContent{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+    .window_section{
+        padding-left: 0px;
+      
+    }
+   
+  
+}
+@media screen and (min-width: 1000px){
+     .ReportContent button{
+         margin-left: 80%;
+    margin-right: 40px;
+    min-width: 170px;
+    }
 }

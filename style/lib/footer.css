@@ -9,14 +9,18 @@
     margin: 0px;
 }
 
-.Contact__links{
+.Quick_links{
   width: 60%;
     margin: 0 auto;
     
 }
+.Quick_links a:hover{
+    color:burlywood;
+}
 .Developer__info{
     text-align: center;
     font-family: fantasy;
+    font-size: 18px;
 }
 
 .Developer__info p{

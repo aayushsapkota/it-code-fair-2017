@@ -8,18 +8,15 @@
 }
 
 .topnav, .Header_Title{
-   
     text-align: center;
 }
 .myTopnav_fixed{
-     top: 0;
+     top: 45px;
     z-index: 50;
   position: fixed;
     width: 100%;
     background-color: #FF033E;
-   border-bottom-style: solid;
-    border-bottom-color: #282828;
-    border-width: 5px;
+  
 }
 
 .topnav a {
@@ -33,13 +30,17 @@
     border-radius: 2px 2px 0px 0px;
    
 }
+
 .topnav a:hover {
   background-color: #3B669B;
     color: white;
 }
 
+.active{
+    background-color: #3B669B;
+}
 
-.icon {
+.menubutton {
   position: static;
   display: block;
     height: 45px;
@@ -47,9 +48,12 @@
     margin: 0px auto;
     width: 100%;
     text-align: left;
-    border-style: solid;
-    border-width: thin;
     background-color: #444;
+}
+.menubutton_fixed{
+    position: fixed;
+    top: 0px;
+     background-color: #FF033E;
 }
 a {
   text-decoration: none;
@@ -57,7 +61,7 @@ a {
     
 }
 header{
-    background-color: #444;
+    background-color: #343434;
 }
 
 
@@ -69,7 +73,6 @@ header{
 }
 
 .Header_Title{
- 
     margin-top: 0px;
     color: white;
     
@@ -80,17 +83,15 @@ img{
    
 }
 
-@media screen and (min-width:400px){
-    
-}
 
-@media screen and (min-width: 600px) {
+
+@media screen and (min-width: 700px) {
     .Header_Title{
         padding-top: 50px;
          text-align: center;
      
     }
-  .icon {
+  .menubutton {
     display: none;
   }
 header {
@@ -103,16 +104,28 @@ header {
       width: 100px;
   
   }
+    .myTopnav_fixed{
+         top: 0px;
+         border-bottom-style: solid;
+    border-bottom-color: #282828;
+    border-width: 5px;
+    }
      .Head_image{
         float: left;
     }
     
+    .topnav{
+          width: calc(100%-155px);
+    }
     .topnav, .Header_Title{
-        width: calc(100%-155px);
         text-align: center;
+    }
+    .Header_Title{
+          width: calc(100% - 185px);
     }
     .topnav{
         clear: both;
     }
+    
     
 }
