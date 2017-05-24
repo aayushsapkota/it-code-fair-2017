@@ -8,7 +8,7 @@ $(document).ready(function() {
 
   $(window).scroll(function () {
       
-      //trying to know exact nav location when we should switch using console
+      //trying to know exact nav location
      // console.log($(window).scrollTop());
     if ($(window).scrollTop() > 160) {
       $('.topnavmobile').addClass('topnavmobile_fixed');
@@ -25,12 +25,12 @@ $(document).ready(function() {
 
   $(window).scroll(function () {
       
-      //trying to know exact nav location when we should switch using console
+      //trying to know exact nav location
      // console.log($(window).scrollTop());
-    if ($(window).scrollTop() > 130) {
+    if ($(window).scrollTop() > 100) {
       $('#myTopnav').addClass('myTopnav_fixed');
     }
-    if ($(window).scrollTop() < 130) {
+    if ($(window).scrollTop() < 100) {
       $('#myTopnav').removeClass('myTopnav_fixed');
     }
       

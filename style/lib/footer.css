@@ -3,22 +3,39 @@
     padding-top: 60px;
     margin-bottom: 0px;
     color: white;
+    font-size: 18px;
+     text-align: center;
+    overflow: hidden;
 }
-
 #Contact h3{
     margin: 0px;
 }
+.Contactwrapper{
+     display: inline-flex;
+   text-align: left;
+    margin-bottom: 80px;
+    flex-wrap: wrap;
+    padding-left: 40px;
+    border-bottom: solid;
+    border-bottom-color: #aaa;
+    padding-bottom: 20px;
+}
 
-.Quick_links{
-  width: 60%;
-    margin: 0 auto;
+
+.Quick_links, .ContactInfo,.Developer__info{
+   display: block;
+        box-sizing: border-box;
+    margin-right: 40px;
+    min-width: 250px;
     
+}
+.Quick_links a{
+    line-height: 28px;
 }
 .Quick_links a:hover{
     color:burlywood;
 }
 .Developer__info{
-    text-align: center;
     font-family: fantasy;
     font-size: 18px;
 }
@@ -27,3 +44,41 @@
     margin: 0px;
     line-height: 40px;
 }
+
+.sponsortablewrapper{
+    background-color: white;
+   width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px #888;
+    padding-right: 20px;
+    margin-bottom: 20px;
+}
+.sponsortablewrapper h3{
+    padding: 20px;
+    color: #343434;
+}
+
+.tableSponsorimage{
+    display: inline-grid;
+    max-width: 27%;
+    min-width: 150px;
+    height: 100px;
+    padding-left: 40px;
+    padding-top:20px;  
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+.tableSponsorimage:hover{
+    box-shadow: 0px 0px 5px #999;
+    
+}
+
+@media screen and (min-width: 700px){
+    .sponsortablewrapper{
+        width: 60%;.
+}
+
+
+

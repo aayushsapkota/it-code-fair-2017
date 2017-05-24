@@ -10,6 +10,7 @@ body {
   margin: 0px;
     color: #333;
     font-size: 19px;
+    overflow: hidden;
 }
 header, #Home #Events, #History, #Register{
     overflow: hidden;

@@ -107,7 +107,8 @@ font-size: 17px;
 
 .window_header h2{
     background-color: #3B669B;
-    border-bottom-color: ;
+    font-size: 40px;
+    padding-bottom: 30px;
 }
 .window_section,
 .reportcards__content h3 {

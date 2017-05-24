@@ -15,7 +15,7 @@
     z-index: 50;
   position: fixed;
     width: 100%;
-    background-color: #e70036;
+    background-color: #880020;
   
 }
 
@@ -26,7 +26,6 @@
   text-decoration: none;
   font-size: 18px;
     display: none;
-    width: 250%;
     border-radius: 2px 2px 0px 0px;
    
 }
@@ -57,13 +56,12 @@
 .topnavmobile_fixed{
     position: fixed;
     top: 0px;
-    display: block;
 }
 a {
   text-decoration: none;
-  color: white;
-    
+  color: white;  
 }
+
 header{
     background-color: #343434;
 }
@@ -76,11 +74,7 @@ header{
   text-align: left;
 }
 
-.Header_Title{
-    margin-top: 0px;
-    color: white;
-    padding-top: 30px;
-}
+
 img{
     max-width: 100%;
     height: auto;
@@ -90,11 +84,7 @@ img{
 
 
 @media screen and (min-width: 700px) {
-    .Header_Title{
-        padding-top: 50px;
-         text-align: center;
-     
-    }
+   
   .topnavmobile {
     display: none;
   }
@@ -125,9 +115,7 @@ img{
     .topnav, .Header_Title{
         text-align: center;
     }
-    .Header_Title{
-          width: calc(100% - 185px);
-    }
+    
     .topnav{
         clear: both;
     }
