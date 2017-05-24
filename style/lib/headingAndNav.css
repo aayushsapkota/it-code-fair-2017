@@ -15,7 +15,7 @@
     z-index: 50;
   position: fixed;
     width: 100%;
-    background-color: #FF033E;
+    background-color: #e70036;
   
 }
 
@@ -57,6 +57,7 @@
 .topnavmobile_fixed{
     position: fixed;
     top: 0px;
+    display: block;
 }
 a {
   text-decoration: none;
@@ -78,7 +79,7 @@ header{
 .Header_Title{
     margin-top: 0px;
     color: white;
-    
+    padding-top: 30px;
 }
 img{
     max-width: 100%;
@@ -98,7 +99,7 @@ img{
     display: none;
   }
     
-header {
+    header{
      border-bottom-style: solid;
     border-bottom-color: #282828;
     border-width: 5px;
@@ -130,6 +131,5 @@ header {
     .topnav{
         clear: both;
     }
-    
-    
+        
 }

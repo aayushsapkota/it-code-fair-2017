@@ -10,10 +10,10 @@ $(document).ready(function() {
       
       //trying to know exact nav location when we should switch using console
      // console.log($(window).scrollTop());
-    if ($(window).scrollTop() > 150) {
+    if ($(window).scrollTop() > 160) {
       $('.topnavmobile').addClass('topnavmobile_fixed');
     }
-    if ($(window).scrollTop() < 150) {
+    if ($(window).scrollTop() < 160) {
       $('.topnavmobile').removeClass('topnavmobile_fixed');
     }
       

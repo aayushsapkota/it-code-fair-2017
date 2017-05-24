@@ -93,7 +93,7 @@
   margin-bottom: 2em;
     width: 250px;
   font-size: 0.8em;
-    background-color: #FF033E;
+    background-color: #e70036;
     height: 210px;
     margin-right: 50px;
    
@@ -122,7 +122,7 @@ font-size: 17px;
     background-color: #555;
 }
 .ReportContent button{
-       background-color: #FF033E;
+       background-color: #c8002f;
     margin-top: 20px;
     position: fixed;
 
