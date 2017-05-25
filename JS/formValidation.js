@@ -1,5 +1,6 @@
 
-
+$(document).ready(function(){
+    
 $("#name").keyup(
   function(event){
   event.preventDefault();
@@ -22,8 +23,10 @@ function validate_User(){
 var id = document.getElementById('name')
 if(userid_validation(id,4,30)){
   document.getElementById('valid_User').innerHTML = ("");
+    return true;
 }else{
-  document.getElementById('valid_User').innerHTML = ("Invalid Name");
+  document.getElementById('valid_User').innerHTML = ("Please Enter valid Name");
+    return false;
 }
 };
 
@@ -33,7 +36,7 @@ var student = document.getElementById('studentnumber');
 if(studentNumber(student)){
 document.getElementById('valid_number').innerHTML = ("");
 }else {
-document.getElementById('valid_number').innerHTML = ("Invalid Student Number");
+document.getElementById('valid_number').innerHTML = ("Please Enter Student Number");
 }
 };
 
@@ -41,9 +44,19 @@ function validate_mail(){
 var email = document.getElementById('mail');
 if(ValidateEmail(email)){
 document.getElementById('valid_email').innerHTML =("");
+    return true;
   }else {
-  document.getElementById('valid_email').innerHTML =("Invalid Email");
+  document.getElementById('valid_email').innerHTML =("Please Enter Valid Email");
+      return false;
   }
+};
+
+function ValidateEmail(email){
+var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+if(mail.value.match(mailformat)){
+return true;
+}
+return false;
 };
 
 $(function detectKeydown(){
@@ -77,21 +90,19 @@ return false;
 
 
 
-function ValidateEmail(email){
-var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-if(mail.value.match(mailformat)){
-return true;
-}
-return false;
-};
+
 
 $("#submitted").click(function(event) {
   event.preventDefault();
-  if(validate_User()){
-    if(validate_mail()){
-    document.getElementById('subm').innerHTML =("Submitted");
-  }else{
-    document.getElementById('subm').innerHTML =("");
+    // console.log('true');
+  if(validate_User() === true){
+      console.log('trueM');
+    if(validate_mail() === true){
+           console.log('true');
+    document.getElementById('submitrue').innerHTML =("Sucessfully submitted.");
   }
-}
+}else{
+    document.getElementById('submitrue').innerHTML =("");
+  }
+});
 });

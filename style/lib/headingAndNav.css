@@ -1,22 +1,23 @@
 .Head_image{
     width: 155px;
     height: 60px;
-    margin-top: 30px;
+    margin-top: 15px;
     margin-left: 30px;
     border-radius: 5px;
     box-shadow: 0px 0px 5px #777;
 }
 
-.topnav, .Header_Title{
+.topnav{
     text-align: center;
+   
 }
+
 .myTopnav_fixed{
-     top: 45px;
     z-index: 50;
   position: fixed;
     width: 100%;
     background-color: #880020;
-  
+  box-shadow: 0px 0px 10px #777;
 }
 
 .topnav a {
@@ -35,9 +36,7 @@
     color: white;
 }
 
-.active{
-    background-color: #3B669B;
-}
+
 
 .topnavmobile {
   display: block;
@@ -56,6 +55,7 @@
 .topnavmobile_fixed{
     position: fixed;
     top: 0px;
+    
 }
 a {
   text-decoration: none;
@@ -66,19 +66,13 @@ header{
     background-color: #343434;
 }
 
-
-.responsive a {
-    position: relative;
-  text-align: center;
-  display: block;
-  text-align: left;
-}
-
-
 img{
     max-width: 100%;
     height: auto;
    
+}
+.active{
+    background-color: #3B669B;
 }
 
 
@@ -93,31 +87,37 @@ img{
      border-bottom-style: solid;
     border-bottom-color: #282828;
     border-width: 5px;
+       
     }
   .topnav a {
     display: inline-block;
       width: 100px;
   
   }
+    .topnav{
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 2px;
+
+    }
+    
     .myTopnav_fixed{
          top: 0px;
+        margin-top: 0px;
          border-bottom-style: solid;
     border-bottom-color: #282828;
     border-width: 5px;
-    }
-     .Head_image{
-        float: left;
-    }
-    
-    .topnav{
-          width: calc(100%-155px);
-    }
-    .topnav, .Header_Title{
-        text-align: center;
+        width: 100%;
+       
     }
     
-    .topnav{
-        clear: both;
+    .Head_image , .myTopnav{
+        box-sizing: border-box;
+     
     }
+    
+    
+    
+   
         
 }

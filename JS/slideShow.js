@@ -2,13 +2,13 @@
 $(document).ready(function(){
 
     var slideIndex = 1;
-showDivs(slideIndex);
+showImg(slideIndex);
     
-function plusDivs(n) {
-    showDivs(slideIndex += n);
+function plusImg(n) {
+    showImg(slideIndex += n);
 }
 
-function showDivs(n) {
+function showImg(n) {
     var i;
     var x = document.getElementsByClassName("slides");
     if (n > x.length)
@@ -25,9 +25,13 @@ function showDivs(n) {
     
     
     $('.NextImage').click(function(e){
-     plusDivs(+1);
+     plusImg(+1);
   }); 
     $('.PreviousImage').click(function(e){
-      plusDivs(-1);;
+      plusImg(-1);
   }); 
+
+
 });
+
+

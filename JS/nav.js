@@ -27,15 +27,12 @@ $(document).ready(function() {
       
       //trying to know exact nav location
      // console.log($(window).scrollTop());
-    if ($(window).scrollTop() > 100) {
+    if ($(window).scrollTop() > 35) {
       $('#myTopnav').addClass('myTopnav_fixed');
     }
-    if ($(window).scrollTop() < 100) {
+    if ($(window).scrollTop() < 35) {
       $('#myTopnav').removeClass('myTopnav_fixed');
     }
-      
-      
-   
 });
 });
 
